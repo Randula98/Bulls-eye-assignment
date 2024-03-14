@@ -50,7 +50,8 @@ h3.solutions-header {
     }
 
     .image-text {
-        font-size: 12px;
+        font-size: 15px;
         bottom: 10px;
+        font-weight: 500;
     }
 }
