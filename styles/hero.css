@@ -41,18 +41,14 @@ img.mask-image {
     padding: 20px;
 }
 
-/* Additional CSS for custom styling */
 .custom-btn-group {
     display: flex;
     justify-content: center;
-    /* Align buttons to the center */
     padding: 20px;
-    /* Optional margin for spacing */
 }
 
 .custom-btn-group button {
     margin: 0 5px;
-    /* Optional margin between buttons */
 }
 
 .custom-hr {
@@ -63,12 +59,9 @@ img.mask-image {
 
 @media (max-width: 576px) {
 
-    /* Adjust as needed */
     .custom-btn-group button {
         font-size: 12px;
-        /* Reduce font size for smaller screens */
         padding: 5px 10px;
-        /* Reduce padding for smaller screens */
     }
 
     section.hero {
