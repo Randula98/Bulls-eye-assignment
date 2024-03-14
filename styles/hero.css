@@ -1,0 +1,77 @@
+section.hero {
+    width: 100%;
+    height: 480px;
+    background: rgb(126, 20, 22);
+}
+
+.hero-parent {
+    position: relative;
+}
+
+img.hero-lady-image {
+    top: 0;
+    left: 0;
+    width: 80%;
+}
+
+img.mask-image {
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+}
+
+.hero-content {
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.hero-paragraph-row {
+    width: 80%;
+}
+
+.hero-paragraph {
+    padding: 20px;
+}
+
+/* Additional CSS for custom styling */
+.custom-btn-group {
+    display: flex;
+    justify-content: center;
+    /* Align buttons to the center */
+    padding: 20px;
+    /* Optional margin for spacing */
+}
+
+.custom-btn-group button {
+    margin: 0 5px;
+    /* Optional margin between buttons */
+}
+
+.custom-hr {
+    border: 1px solid white;
+    width: 50px;
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+
+    /* Adjust as needed */
+    .custom-btn-group button {
+        font-size: 12px;
+        /* Reduce font size for smaller screens */
+        padding: 5px 10px;
+        /* Reduce padding for smaller screens */
+    }
+
+    section.hero {
+        height: 600px;
+    }
+}
