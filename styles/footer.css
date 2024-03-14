@@ -1,0 +1,20 @@
+.footer-container {
+    height: 550px;
+    background-color: #1C1C1C;
+    color: white;
+    padding: 40px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.left-col {
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
