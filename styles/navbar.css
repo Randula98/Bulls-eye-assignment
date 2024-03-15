@@ -17,6 +17,12 @@
     color: #7E1416;
     margin-right: 40px;
     font-weight: bolder;
+    transition: 0.3s;
+}
+
+.navbar-nav a.nav-link:hover {
+    text-decoration: underline;
+    font-size: 1.1em;
 }
 
 a.social-media-icons {
@@ -26,6 +32,15 @@ a.social-media-icons {
 
 img.logo {
     margin-left: 60px;
+}
+
+button.navbar-toggler {
+    background-color: #7E1416;
+}
+
+span.navbar-toggler-icon {
+    color: white;
+    border: 1px solid white;
 }
 
 @media (max-width: 576px) {

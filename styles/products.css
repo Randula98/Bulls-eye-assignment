@@ -29,11 +29,28 @@ h3.products-header {
     font-size: 40px;
     color: #7E1416;
     font-weight: 600;
+    z-index: 1;
+
 }
 
 .products-image {
     width: 100%;
     height: auto;
+}
+
+.products-gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFA2A280;
+    transition: 0.5s;
+}
+
+.products-gradient-overlay:hover {
+    background: none;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {

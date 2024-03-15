@@ -55,4 +55,8 @@
     .industries-container {
         height: 1000px;
     }
+
+    .industry-image-text {
+        font-size: 12px;
+    }
 }

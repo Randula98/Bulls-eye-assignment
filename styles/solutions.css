@@ -20,6 +20,13 @@ h3.solutions-header {
     margin-top: 20px;
 }
 
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
 .image-text {
     position: absolute;
     bottom: 20px;
@@ -29,12 +36,30 @@ h3.solutions-header {
     font-size: 15px;
     color: white;
     font-weight: 400;
+    z-index: 1;
 }
 
 .sulotions-body-sub {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(222, 179, 182, 0) 1.83%, #911719 120.92%);
+    transition: 1s;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+
+.gradient-overlay:hover {
+    cursor: pointer;
+    background: none;
 }
 
 /* Media query for mobile view */
