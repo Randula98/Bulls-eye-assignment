@@ -54,6 +54,7 @@ h3.solutions-header {
     background: linear-gradient(180deg, rgba(222, 179, 182, 0) 1.83%, #911719 120.92%);
     transition: 1s;
     border-radius: 25px;
+    transition: 0.5s;
 }
 
 .gradient-overlay:hover {
