@@ -1,0 +1,28 @@
+.contactus-image {
+    padding: 30px;
+    width: 90%;
+}
+
+.contactus-header {
+    padding: 30px;
+    color: #7E1416;
+    text-align: left;
+}
+
+label.input-label {
+    color: #7E1416;
+}
+
+input.form-control {
+    background-color: #ffeaeb;
+}
+
+.submit-button-row {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-submit {
+    background-color: #7E1416;
+    color: white;
+}
